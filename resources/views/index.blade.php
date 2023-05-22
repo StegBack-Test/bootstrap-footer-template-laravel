@@ -26,6 +26,9 @@
     .bg-grey{background-color: #f2f2f2fc;}
     .card-text{font-size: 14px}
     .card{background:#fff }
+
+    .img-full{width: 100%}
+    .align-self{align-self:center}
 </style>
 @endsection
 
@@ -203,7 +206,32 @@
     </div>
 </div>
 
-    @endsection
+<hr>
+
+<div class="p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-0">
+                <img src="https://cdn4.buysellads.net/uu/1/127419/1670532177-Stock.jpg" class="img-fluid img-full">
+            </div>
+            <div class="col-md-6 align-self p-5">
+                <h2>Oh yeah, it’s that good. See for yourself.</h2>
+                <p>Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 order-md-2 p-0">
+                <img src="https://cdn4.buysellads.net/uu/1/127419/1670532177-Stock.jpg" class="img-fluid img-full">
+            </div>
+            <div class="col-md-6 align-self p-5 order-md-1">
+                <h2>Oh yeah, it’s that good. See for yourself.</h2>
+                <p>Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@endsection
 
 @section('script')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
