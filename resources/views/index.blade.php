@@ -231,6 +231,29 @@
     </div>
 </div>
 
+<hr>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://user-images.githubusercontent.com/15031908/37798993-bc28f960-2df4-11e8-8bdd-0164381b2446.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i0.wp.com/webdevpuneet.com/wp-content/uploads/2019/10/owl-carousel.png?resize=1024%2C514&ssl=1" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://user-images.githubusercontent.com/15031908/37798993-bc28f960-2df4-11e8-8bdd-0164381b2446.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 @endsection
 
 @section('script')
